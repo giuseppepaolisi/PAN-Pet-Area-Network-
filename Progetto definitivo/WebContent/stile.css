@@ -1,0 +1,222 @@
+@media screen and (min-device-width:1366px){
+	body{
+	  background-color: #ECEFF1;
+	  overflow-x: hidden;
+	}
+	h1#titolo_pagina{
+	  text-align: center;
+	  font-family: verdana;
+	}
+	span#ordina{
+		display:inline-block;
+		margin-left:10px;
+	}
+	div#contenitore_servizi{
+	  margin: 0px 10% 0px;
+	  padding: 20px;
+	  min-width: 800px;
+	}
+	
+	div#blocco_azioni{
+	  right: 0px;
+	}
+	
+	div#contenitore_servizio{
+	  border-top: solid 1px #DDD;
+	  padding-top:10px;
+	  margin-top: 10px;
+		display:block;
+	}
+	
+	img#img_servizio{
+	  border-radius: 10px;
+	  margin-right: 15px;
+	}
+	
+	
+	div#comandi_servizio{
+	  display: block;
+		right:0px;
+	}
+	
+	div#contenitore_inserimento{
+	  margin: 20px 10% 0%;
+	  
+	}
+	
+	h3#titolo_inserimento{
+	  text-align: center
+	}
+	
+	table#tabella_inerimento{
+	  margin: 0% 20% 0%;
+	  width: 100%;
+	}
+	
+	#casella,#sort{
+		border-radius: 4px;
+		margin: 3px 2px 2px;
+		border: hidden;
+	  box-shadow: 0px 0px 2px 1px rgba(96,125,139,1);
+	}
+	#casella,#sort:focus{
+	box-shadow: 0px 0px 9px 3px rgba(96,125,139,1);
+	}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 4px #666666;
+  -moz-box-shadow: 0px 0px 4px #666666;
+  box-shadow: 0px 0px 4px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  background: #78909c;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b0bec5;
+  text-decoration: none;
+}
+	div#gatto{
+		width: 1000px;
+		background:no-repeat;
+	    height: 300px;
+	    background-image: url('gatto1.png');
+    	position: relative;
+		animation: mymove 4s infinite;
+	}
+	@keyframes mymove{
+		0% {
+			left:0px;
+			background-image: url('gatto1.png');
+		}
+		1% {
+			left:10px;
+			background-image: url('gatto2.png');
+		}
+		2% {
+			left:20px;
+			background-image: url('gatto3.png');
+		}
+		3% {
+			left:30px;
+			background-image: url('gatto4.png');
+		}
+		4% {
+			left:40px;
+			background-image: url('gatto1.png');
+		}
+		5% {
+			left:50px;
+			background-image: url('gatto2.png');
+		}
+		6% {
+			left:60px;
+			background-image: url('gatto3.png');
+		}
+		7% {
+			left:70px;
+			background-image: url('gatto4.png');
+		}
+		8% {
+			left:80px;
+			background-image: url('gatto1.png');
+		}
+		9% {
+			left:90px;
+			background-image: url('gatto2.png');
+		}
+		10% {
+			left:100px;
+			background-image: url('gatto3.png');
+		}
+		11% {
+			left:110px;
+			background-image: url('gatto4.png');
+		}
+		12% {
+			left:120px;
+			background-image: url('gatto1.png');
+		}
+		13% {
+			left:130px;
+			background-image: url('gatto2.png');
+		}
+		14% {
+			left:140px;
+			background-image: url('gatto3.png');
+		}
+		15% {
+			left:150px;
+			background-image: url('gatto4.png');
+		}
+		16% {
+			left:160px;
+			background-image: url('gatto1.png');
+		}
+		17% {
+			left:170px;
+			background-image: url('gatto2.png');
+		}
+		18% {
+			left:180px;
+			background-image: url('gatto3.png');
+		}
+		19% {
+			left:190px;
+			background-image: url('gatto4.png');
+		}
+		20% {
+			left:200px;
+			background-image: url('gatto1.png');
+		}
+		21% {
+			left:210px;
+			background-image: url('gatto2.png');
+		}
+		22% {
+			left:220px;
+			background-image: url('gatto3.png');
+		}
+		23% {
+			left:230px;
+			background-image: url('gatto4.png');
+		}
+		24% {
+			left:240px;
+			background-image: url('gatto1.png');
+		}
+		25% {
+			left:250px;
+			background-image: url('gatto2.png');
+		}
+		26% {
+			left:260px;
+			background-image: url('gatto3.png');
+		}
+		27% {
+			left:270px;
+			background-image: url('gatto4.png');
+		}
+		28% {
+			left:280px;
+			background-image: url('gatto1.png');
+		}
+		29% {
+			left:290px;
+			background-image: url('gatto2.png');
+		}
+		30% {
+			left:300px;
+			background-image: url('gatto3.png');
+		}
+		31% {
+			left:310px;
+			background-image: url('gatto4.png');
+		}
+	}
+}
